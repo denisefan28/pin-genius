@@ -1,0 +1,15 @@
+{
+  "name": "Chrome Extensions PinGenius Demo",
+  "version": "1.0",
+  "scripts": {
+    "build": "rollup sidepanel/index.js --file dist/sidepanel.bundle.js --format iife"
+  },
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.8",
+    "@google/generative-ai": "0.15.0",
+    "rollup": "4.22.4"
+  }
+}

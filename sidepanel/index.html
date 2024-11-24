@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <h1>Google Gemini</h1>
+    <textarea
+      id="input-prompt"
+      placeholder='Type something, e.g. "Write a haiku about Chrome Extensions"'
+      cols="30"
+      rows="5"
+    ></textarea>
+
+    <Button variant="outlined">Outlined</Button>
+    <div id="typedUrl_div"></div>
+
+    <button id="button-prompt" class="primary">Run</button>
+    <div id="response" class="text" hidden></div>
+    <div id="loading" class="text" hidden><span class="blink">...</span></div>
+    <div id="error" class="text" hidden></div>
+    <script src="../dist/sidepanel.bundle.js" type="module"></script>
+  </body>
+</html>
